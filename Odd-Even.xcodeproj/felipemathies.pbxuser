@@ -1,0 +1,209 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* Odd_EvenAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1115, 578}}";
+			sepNavSelRange = "{274, 0}";
+			sepNavVisRange = "{0, 489}";
+		};
+	};
+	1D3623250D0F684500981E51 /* Odd_EvenAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1115, 752}}";
+			sepNavSelRange = "{1207, 0}";
+			sepNavVisRange = "{182, 1131}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Odd-Even */ = {
+		activeExec = 0;
+		executables = (
+			A60B00650F33577A002A9101 /* Odd-Even */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* Odd_EvenViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 848}}";
+			sepNavSelRange = "{448, 7}";
+			sepNavVisRange = "{149, 745}";
+			sepNavWindowFrame = "{{15, 51}, {1346, 972}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* Odd_EvenViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1160, 1552}}";
+			sepNavSelRange = "{1570, 0}";
+			sepNavVisRange = "{0, 695}";
+			sepNavWindowFrame = "{{15, 51}, {1346, 972}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = A60B00650F33577A002A9101 /* Odd-Even */;
+		activeSDKPreference = iphoneos4.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Odd-Even */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Odd-Even */,
+		);
+		codeSenseManager = A60B00760F33577D002A9101 /* Code sense */;
+		executables = (
+			A60B00650F33577A002A9101 /* Odd-Even */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					1121,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					881,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					841,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 301425803;
+			PBXWorkspaceStateSaveDate = 301425803;
+		};
+		perUserProjectItems = {
+			A62E603611F73B3000F5F0A2 /* PlistBookmark */ = A62E603611F73B3000F5F0A2 /* PlistBookmark */;
+			A65248E211F7654F00A6CF18 /* PlistBookmark */ = A65248E211F7654F00A6CF18 /* PlistBookmark */;
+		};
+		sourceControlManager = A60B00750F33577D002A9101 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1115, 578}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 364}";
+		};
+	};
+	A60B00650F33577A002A9101 /* Odd-Even */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Odd-Even";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	A60B00750F33577D002A9101 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A60B00760F33577D002A9101 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A618554A0F336ED100C8AD34 /* GameModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1115, 555}}";
+			sepNavSelRange = "{433, 0}";
+			sepNavVisRange = "{0, 509}";
+		};
+	};
+	A618554B0F336ED100C8AD34 /* GameModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 1392}}";
+			sepNavSelRange = "{804, 0}";
+			sepNavVisRange = "{0, 554}";
+			sepNavWindowFrame = "{{15, 51}, {1346, 972}}";
+		};
+	};
+	A62E603611F73B3000F5F0A2 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A65248E211F7654F00A6CF18 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+}

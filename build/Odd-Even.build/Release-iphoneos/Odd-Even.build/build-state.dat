@@ -1,0 +1,712 @@
+TOdd-Even
+v7
+r0
+t301425978.211608
+cCheck dependencies
+cCpResource build/Release-iphoneos/Odd-Even.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Info.plist Info.plist
+cCompileXIB /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/MainWindow.xib
+cCompileXIB /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Odd_EvenViewController.xib
+cCopyPNGFile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Icon.png Icon.png
+cCpResource build/Release-iphoneos/Odd-Even.app/finger-numbers.jpg finger-numbers.jpg
+cProcessPCH /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-fhnsgimyoblpzoexrtvzkdujnzkh/Odd_Even_Prefix.pch.gch Odd_Even_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-gkolzgkjjwtoeycruufypvouhwrn/Odd_Even_Prefix.pch.gch Odd_Even_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/main.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd_EvenAppDelegate.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd_EvenViewController.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/GameModel.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/GameModel.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/AccelerometerSimulation.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/AccelerometerSimulation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd-Even normal armv6
+cCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/main.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd_EvenAppDelegate.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd_EvenViewController.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/GameModel.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/GameModel.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/AccelerometerSimulation.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/AccelerometerSimulation.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd-Even normal armv7
+cCreateUniversalBinary /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Odd-Even normal "armv6 armv7"
+cGenerateDSYMFile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app.dSYM /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Odd-Even
+cProcessProductPackaging "/Users/felipemathies/Library/MobileDevice/Provisioning Profiles/BA82C7D6-81F3-485C-B1F9-80310396F886.mobileprovision" /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/embedded.mobileprovision
+cTouch /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even.xcent
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk
+c000000004B47D28D0000000000000110
+t1262998157
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A121EB900000000003D72A0
+t1242701497
+s4027040
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A121FF90000000000396540
+t1242701817
+s3761472
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAECB0000000000001355
+t1242279627
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBD000000000000075E
+t1242349245
+s1886
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A1221FD00000000019A6110
+t1242702333
+s26894608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/TargetConditionals.h
+c000000004A0BB10100000000000031B4
+t1242280193
+s12724
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/netdb.h
+c000000004A0BA3060000000000003057
+t1242276614
+s12375
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
+c000000004B47D7B70000000000000110
+t1262999479
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDBA1300000000005F4900
+t1253947923
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDBDCF0000000000501370
+t1253948879
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDBDA40000000000001355
+t1253948836
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDD0D10000000000000788
+t1253953745
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDD2250000000001B3F450
+t1253954085
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/TargetConditionals.h
+c000000004ABDC79900000000000031E9
+t1253951385
+s12777
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/netdb.h
+c000000004ABDAF8C0000000000003057
+t1253945228
+s12375
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C46FDBE0000000000000132
+t1279720894
+s306
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004BF4B7F900000000000001A7
+t1274329081
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004BF4B7F900000000000001E5
+t1274329081
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C04711400000000000009CD
+t1275359508
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471FC0000000002D563E0
+t1275359740
+s47539168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/TargetConditionals.h
+c000000004BF4D50E00000000000031E9
+t1274336526
+s12777
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/netdb.h
+c000000004BF4BD13000000000000307F
+t1274330387
+s12415
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/AccelerometerSimulation.h
+c00000000498478B6000000000000062A
+t1233418422
+s1578
+i<TargetConditionals.h>
+i<UIKit/UIKit.h>
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/AccelerometerSimulation.m
+c00000000498478B60000000000001984
+t1233418422
+s6532
+i"AccelerometerSimulation.h"
+i<netdb.h>
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/GameModel.h
+c0000000049834FB800000000000001FD
+t1233342392
+s509
+i<Foundation/Foundation.h>
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/GameModel.m
+c00000000498351D5000000000000048E
+t1233342933
+s1166
+i"GameModel.h"
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenAppDelegate.h
+c000000004984744200000000000001E9
+t1233417282
+s489
+i<UIKit/UIKit.h>
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenAppDelegate.m
+c000000004984B6950000000000000521
+t1233434261
+s1313
+i"Odd_EvenAppDelegate.h"
+i"Odd_EvenViewController.h"
+i"AccelerometerSimulation.h"
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenViewController.h
+c000000004984B6A600000000000004DE
+t1233434278
+s1246
+i<UIKit/UIKit.h>
+i"GameModel.h"
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenViewController.m
+c000000004984CC270000000000000A22
+t1233439783
+s2594
+i"Odd_EvenViewController.h"
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Icon.png
+c00000000498353CA0000000000001E75
+t1233343434
+s7797
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/MainWindow.xib
+c0000000049831FF900000000000021CA
+t1233330169
+s8650
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Odd_EvenViewController.xib
+c000000004984B04C0000000000006B61
+t1233432652
+s27489
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Odd_Even_Prefix.pch
+c0000000049831FF900000000000000B9
+t1233330169
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/AccelerometerSimulation.o
+t1279722342
+s4168
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/GameModel.o
+t1279722342
+s11032
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd-Even
+t1279722342
+s21696
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd-Even.LinkFileList
+c000000004C223FF000000000000002E1
+t1277313008
+s737
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd_EvenAppDelegate.o
+t1279722342
+s46908
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd_EvenViewController.o
+t1279722342
+s43692
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/main.o
+t1279722342
+s6468
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/AccelerometerSimulation.o
+t1279722343
+s4168
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/GameModel.o
+t1279722343
+s10940
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd-Even
+t1279722343
+s21280
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd-Even.LinkFileList
+c000000004C47036400000000000002E1
+t1279722340
+s737
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd_EvenAppDelegate.o
+t1279722343
+s46784
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd_EvenViewController.o
+t1279722343
+s43188
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/main.o
+t1279722342
+s6448
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even.xcent
+t2
+s0
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Script-A6DF579711D28233003C0375.sh
+c000000004C224B0C00000000000001C8
+t1277315852
+s456
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app
+t1279722343
+s408
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app.dSYM
+t1279722343
+s102
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Icon.png
+t1277313009
+s8800
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Info.plist
+t1279722340
+s721
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/MainWindow.nib
+t1279722340
+s1101
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Odd-Even
+t1279722343
+s49952
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Odd_EvenViewController.nib
+t1279722340
+s4350
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/PkgInfo
+t1279722340
+s8
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/ResourceRules.plist
+t1279722340
+s485
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/embedded.mobileprovision
+t1279722343
+s7251
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/finger-numbers.jpg
+t1277313009
+s31421
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/finger-numbers.jpg
+c000000004983C0B20000000000007ABD
+t1233371314
+s31421
+
+N/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/main.m
+c0000000049831FF9000000000000016C
+t1233330169
+s364
+i<UIKit/UIKit.h>
+
+N/Users/felipemathies/Library/MobileDevice/Provisioning Profiles/BA82C7D6-81F3-485C-B1F9-80310396F886.mobileprovision
+c000000004C46FD0E0000000000001C53
+t1279720718
+s7251
+
+N/var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-aoowiytqijlaatddmzvojumqkrqj/Odd_Even_Prefix.pch.gch
+t1277313010
+s8159360
+
+N/var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-fhnsgimyoblpzoexrtvzkdujnzkh/Odd_Even_Prefix.pch.gch
+t1279722342
+s9631280
+
+N/var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-fkuahfevjallmucksudywobofepk/Odd_Even_Prefix.pch.gch
+t1277315854
+s8208568
+
+N/var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-gkolzgkjjwtoeycruufypvouhwrn/Odd_Even_Prefix.pch.gch
+t1279722342
+s10090032
+
+NInfo.plist
+c000000004983563E000000000000038E
+t1233344062
+s910
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies301425978#301425978#0(0"0(0#1#0"8612188384#0"0#
+
+CCodeSign /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app
+r0
+
+CCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/AccelerometerSimulation.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/AccelerometerSimulation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301415142.852295
+e301415142.909914
+r1
+xCompileC
+xbuild/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/AccelerometerSimulation.o
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/AccelerometerSimulation.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/AccelerometerSimulation.m301415142#301415142#0(0"0(0#0#88"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/AccelerometerSimulation.m8614422720#2001"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-generated-files.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-own-target-headers.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-all-target-headers.hmap -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-project-headers.hmap -F/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/include -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources/armv6 -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources -include /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-fhnsgimyoblpzoexrtvzkdujnzkh/Odd_Even_Prefix.pch -c /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/AccelerometerSimulation.m -o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/AccelerometerSimulation.o0#
+
+CCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/GameModel.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/GameModel.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301415142.720732
+e301415142.873309
+r1
+xCompileC
+xbuild/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/GameModel.o
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/GameModel.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/GameModel.m301415142#301415142#0(0"0(0#0#74"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/GameModel.m8616070176#1973"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-generated-files.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-own-target-headers.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-all-target-headers.hmap -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-project-headers.hmap -F/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/include -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources/armv6 -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources -include /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-fhnsgimyoblpzoexrtvzkdujnzkh/Odd_Even_Prefix.pch -c /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/GameModel.m -o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/GameModel.o0#
+
+CCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd_EvenAppDelegate.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301415142.597274
+e301415142.720622
+r1
+xCompileC
+xbuild/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd_EvenAppDelegate.o
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenAppDelegate.m301415142#301415142#0(0"0(0#0#84"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenAppDelegate.m8610888672#1993"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-generated-files.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-own-target-headers.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-all-target-headers.hmap -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-project-headers.hmap -F/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/include -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources/armv6 -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources -include /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-fhnsgimyoblpzoexrtvzkdujnzkh/Odd_Even_Prefix.pch -c /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenAppDelegate.m -o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd_EvenAppDelegate.o0#
+
+CCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd_EvenViewController.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301415142.702318
+e301415142.852185
+r1
+xCompileC
+xbuild/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd_EvenViewController.o
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenViewController.m301415142#301415142#0(0"0(0#0#87"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenViewController.m8602499232#1999"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-generated-files.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-own-target-headers.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-all-target-headers.hmap -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-project-headers.hmap -F/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/include -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources/armv6 -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources -include /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-fhnsgimyoblpzoexrtvzkdujnzkh/Odd_Even_Prefix.pch -c /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenViewController.m -o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd_EvenViewController.o0#
+
+CCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/main.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301415142.595679
+e301415142.702208
+r1
+xCompileC
+xbuild/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/main.o
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/main.m301415142#301415142#0(0"0(0#0#61"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/main.m8615643648#1955"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-generated-files.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-own-target-headers.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-all-target-headers.hmap -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-project-headers.hmap -F/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/include -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources/armv6 -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources -include /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-fhnsgimyoblpzoexrtvzkdujnzkh/Odd_Even_Prefix.pch -c /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/main.m -o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/AccelerometerSimulation.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/AccelerometerSimulation.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301415143.169447
+e301415143.223954
+r1
+xCompileC
+xbuild/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/AccelerometerSimulation.o
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/AccelerometerSimulation.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/AccelerometerSimulation.m301415143#301415143#0(0"0(0#0#88"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/AccelerometerSimulation.m8604719392#2001"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-generated-files.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-own-target-headers.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-all-target-headers.hmap -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-project-headers.hmap -F/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/include -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources/armv7 -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources -include /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-gkolzgkjjwtoeycruufypvouhwrn/Odd_Even_Prefix.pch -c /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/AccelerometerSimulation.m -o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/AccelerometerSimulation.o0#
+
+CCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/GameModel.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/GameModel.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301415143.095497
+e301415143.217419
+r1
+xCompileC
+xbuild/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/GameModel.o
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/GameModel.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/GameModel.m301415143#301415143#0(0"0(0#0#74"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/GameModel.m8613932192#1973"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-generated-files.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-own-target-headers.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-all-target-headers.hmap -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-project-headers.hmap -F/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/include -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources/armv7 -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources -include /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-gkolzgkjjwtoeycruufypvouhwrn/Odd_Even_Prefix.pch -c /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/GameModel.m -o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/GameModel.o0#
+
+CCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd_EvenAppDelegate.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301415142.961520
+e301415143.095389
+r1
+xCompileC
+xbuild/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd_EvenAppDelegate.o
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenAppDelegate.m301415142#301415143#0(0"0(0#0#84"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenAppDelegate.m8610600352#1993"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-generated-files.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-own-target-headers.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-all-target-headers.hmap -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-project-headers.hmap -F/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/include -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources/armv7 -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources -include /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-gkolzgkjjwtoeycruufypvouhwrn/Odd_Even_Prefix.pch -c /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenAppDelegate.m -o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd_EvenAppDelegate.o0#
+
+CCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd_EvenViewController.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301415142.977664
+e301415143.169344
+r1
+xCompileC
+xbuild/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd_EvenViewController.o
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenViewController.m301415142#301415143#0(0"0(0#0#87"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenViewController.m8615426240#1999"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-generated-files.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-own-target-headers.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-all-target-headers.hmap -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-project-headers.hmap -F/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/include -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources/armv7 -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources -include /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-gkolzgkjjwtoeycruufypvouhwrn/Odd_Even_Prefix.pch -c /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Classes/Odd_EvenViewController.m -o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd_EvenViewController.o0#
+
+CCompileC build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/main.o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301415142.873431
+e301415142.961404
+r1
+xCompileC
+xbuild/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/main.o
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/main.m301415142#301415142#0(0"0(0#0#61"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/main.m8613865280#1955"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-generated-files.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-own-target-headers.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-all-target-headers.hmap -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-project-headers.hmap -F/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/include -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources/armv7 -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources -include /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-gkolzgkjjwtoeycruufypvouhwrn/Odd_Even_Prefix.pch -c /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/main.m -o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/MainWindow.xib
+s301415140.098142
+e301415140.684315
+r1
+xCompileXIB
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib301415140#301415140#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#69"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/MainWindow.xib8613817312#593"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/MainWindow.nib /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Odd_EvenViewController.xib
+s301415140.099554
+e301415140.945515
+r1
+xCompileXIB
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Odd_EvenViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@37"CompileXIB Odd_EvenViewController.xib301415140#301415140#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#81"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Odd_EvenViewController.xib8613570816#617"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Odd_EvenViewController.nib /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Odd_EvenViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCopyPNGFile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Icon.png Icon.png
+s299005809.026464
+e299005809.585426
+r1
+xCopyPNGFile
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Icon.png
+xIcon.png
+lSLF07#2@65"CopyPNGFile build/Release-iphoneos/Odd-Even.app/Icon.png Icon.png299005809#299005809#0(0"0(0#0#63"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Icon.png4300911832#607"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Icon.png /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Icon.png0#
+
+CCpResource build/Release-iphoneos/Odd-Even.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s301415140.049602
+e301415140.097913
+r1
+xCpResource
+xbuild/Release-iphoneos/Odd-Even.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist301415140#301415140#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8614302848#536"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app0#
+
+CCpResource build/Release-iphoneos/Odd-Even.app/finger-numbers.jpg finger-numbers.jpg
+s299005809.444730
+e299005809.536262
+r1
+xCpResource
+xbuild/Release-iphoneos/Odd-Even.app/finger-numbers.jpg
+xfinger-numbers.jpg
+lSLF07#2@23"Copy finger-numbers.jpg299005809#299005809#0(0"0(0#0#73"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/finger-numbers.jpg4300911832#520"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/finger-numbers.jpg /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app0#
+
+CCreateUniversalBinary /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Odd-Even normal "armv6 armv7"
+s301415143.256034
+e301415143.292253
+r1
+xCreateUniversalBinary
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Odd-Even
+xnormal
+xarmv6 armv7
+lSLF07#2@87"CreateUniversalBinary build/Release-iphoneos/Odd-Even.app/Odd-Even normal "armv6 armv7"301415143#301415143#0(0"0(0#0#66"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/armv6 armv78615610304#596"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd-Even /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd-Even -output /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Odd-Even0#
+
+CGenerateDSYMFile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app.dSYM /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Odd-Even
+s301415143.292506
+e301415143.464671
+r1
+xGenerateDSYMFile
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app.dSYM
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Odd-Even
+lSLF07#2@102"GenerateDSYMFile build/Release-iphoneos/Odd-Even.app.dSYM build/Release-iphoneos/Odd-Even.app/Odd-Even301415143#301415143#0(0"0(0#0#99"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Odd-Even8614578144#417"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Odd-Even -o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app.dSYM0#
+
+CLd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd-Even normal armv6
+s301415142.910025
+e301415142.977548
+r1
+xLd
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd-Even
+xnormal
+xarmv6
+lSLF07#2@142"Link /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd-Even301415142#301415142#0(0"0(0#0#0"8613130976#953"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -F/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -filelist /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd-Even.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd-Even0#
+
+CLd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd-Even normal armv7
+s301415143.224073
+e301415143.255916
+r1
+xLd
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd-Even
+xnormal
+xarmv7
+lSLF07#2@142"Link /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd-Even301415143#301415143#0(0"0(0#0#0"8610419104#953"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -F/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -filelist /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd-Even.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv7/Odd-Even0#
+
+CLd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Odd-Even normal armv6
+s299008655.171870
+e299008655.235129
+r1
+xLd
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Odd-Even
+xnormal
+xarmv6
+lSLF07#2@104"Link /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Odd-Even299008655#299008655#0(0"0(0#0#0"4300911832#921"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -F/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -filelist /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd-Even.LinkFileList -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Odd-Even0#
+
+CPhaseScriptExecution "Run Script" /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Script-A6DF579711D28233003C0375.sh
+s299008655.253575
+e299008655.410475
+r0
+xPhaseScriptExecution
+xRun Script
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Script-A6DF579711D28233003C0375.sh
+oiPhone developer: no identity found
+lSLF07#2@36"Run custom shell script 'Run Script'299008655#299008655#0(76"iPhone developer: no identity foundCommand /bin/sh failed with exit code 12(13@36"iPhone developer: no identity found299008655#0#36#0(1@0"0(4@39"Command /bin/sh failed with exit code 1299008655#18446744073709551615#0#0(1@0"0(0#0#0"4300911832#17698"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER felipemathies    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv6    setenv ARCHS_STANDARD_32_64_BIT armv6    setenv ARCHS_STANDARD_32_BIT armv6    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv6 armv7"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build    setenv BUILD_ROOT /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build    setenv BUILD_STYLE Release    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos    setenv CACHE_ROOT /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED NO    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "Don't Code Sign"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Release    setenv CONFIGURATION_BUILD_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos    setenv CONTENTS_FOLDER_PATH Odd-Even.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH armv6    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Odd-Even.dst    setenv DWARF_DSYM_FILE_NAME Odd-Even.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Odd-Even.app/Executables    setenv EXECUTABLE_FOLDER_PATH Odd-Even.app    setenv EXECUTABLE_NAME Odd-Even    setenv EXECUTABLE_PATH Odd-Even.app/Odd-Even    setenv FILE_LIST /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Odd-Even.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Odd-Even.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Odd_Even_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Odd-Even.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/Odd-Even.dst/Users/felipemathies/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER felipemathies    setenv INSTALL_PATH /Users/felipemathies/Applications    setenv INSTALL_ROOT /tmp/Odd-Even.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Odd-Even.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-LinkMap-normal-armv6.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv6 /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal/armv6/Odd-Even.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1064    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0604    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Objects-normal    setenv OBJROOT /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Odd-Even.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/PkgInfo    setenv PKGINFO_PATH Odd-Even.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Odd-Even.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Odd-Even.app/PrivateHeaders    setenv PRODUCT_NAME Odd-Even    setenv PRODUCT_SETTINGS_PATH /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Odd-Even    setenv PROJECT_DERIVED_FILE_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/DerivedSources    setenv PROJECT_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv PROJECT_FILE_PATH /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Odd-Even.xcodeproj    setenv PROJECT_NAME Odd-Even    setenv PROJECT_TEMP_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH Odd-Even.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Odd-Even.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk    setenv SDK_NAME iphoneos3.1.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Odd-Even.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Odd-Even.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv SRCROOT /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/SymbolRepositories    setenv SYMROOT /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME Odd-Even    setenv TARGET_BUILD_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos    setenv TARGET_NAME Odd-Even    setenv TARGET_TEMP_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build    setenv TEMP_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build    setenv TEMP_FILES_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build    setenv TEMP_FILE_DIR /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build    setenv TEMP_ROOT /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Odd-Even.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER felipemathies    setenv USER_APPS_DIR /Users/felipemathies/Applications    setenv USER_LIBRARY_DIR /Users/felipemathies/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Odd-Even.app/version.plist    setenv VERSION_INFO_BUILDER felipemathies    setenv VERSION_INFO_FILE Odd-Even_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Odd-Even  PROJECT:Odd-Even-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Odd-Even.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0322    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Script-A6DF579711D28233003C0375.sh1#
+
+CProcessInfoPlistFile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Info.plist Info.plist
+s301415140.050907
+e301415140.087653
+r1
+xProcessInfoPlistFile
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist301415140#301415140#0(0"0(0#0#65"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Info.plist8614104320#627"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/ResourceRules.plist -o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/Info.plist0#
+
+CProcessPCH /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-aoowiytqijlaatddmzvojumqkrqj/Odd_Even_Prefix.pch.gch Odd_Even_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s299005809.585568
+e299005810.326559
+r1
+xProcessPCH
+x/var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-aoowiytqijlaatddmzvojumqkrqj/Odd_Even_Prefix.pch.gch
+xOdd_Even_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Odd_Even_Prefix.pch299005809#299005810#0(0"0(0#0#74"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Odd_Even_Prefix.pch4300911832#1834"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-generated-files.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-own-target-headers.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-all-target-headers.hmap -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-project-headers.hmap -F/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/include -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources/armv6 -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources -c /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Odd_Even_Prefix.pch -o /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-aoowiytqijlaatddmzvojumqkrqj/Odd_Even_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-fhnsgimyoblpzoexrtvzkdujnzkh/Odd_Even_Prefix.pch.gch Odd_Even_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301415140.945648
+e301415142.385695
+r1
+xProcessPCH
+x/var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-fhnsgimyoblpzoexrtvzkdujnzkh/Odd_Even_Prefix.pch.gch
+xOdd_Even_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Odd_Even_Prefix.pch301415140#301415142#0(0"0(0#0#74"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Odd_Even_Prefix.pch8613634752#1834"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-generated-files.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-own-target-headers.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-all-target-headers.hmap -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-project-headers.hmap -F/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/include -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources/armv6 -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources -c /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Odd_Even_Prefix.pch -o /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-fhnsgimyoblpzoexrtvzkdujnzkh/Odd_Even_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-fkuahfevjallmucksudywobofepk/Odd_Even_Prefix.pch.gch Odd_Even_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s299008653.949064
+e299008654.833417
+r1
+xProcessPCH
+x/var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-fkuahfevjallmucksudywobofepk/Odd_Even_Prefix.pch.gch
+xOdd_Even_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Odd_Even_Prefix.pch299008653#299008654#0(0"0(0#0#74"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Odd_Even_Prefix.pch4300911832#1838"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-generated-files.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-own-target-headers.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-all-target-headers.hmap -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-project-headers.hmap -F/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/include -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources/armv6 -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources -c /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Odd_Even_Prefix.pch -o /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-fkuahfevjallmucksudywobofepk/Odd_Even_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-gkolzgkjjwtoeycruufypvouhwrn/Odd_Even_Prefix.pch.gch Odd_Even_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301415140.946640
+e301415142.595525
+r1
+xProcessPCH
+x/var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-gkolzgkjjwtoeycruufypvouhwrn/Odd_Even_Prefix.pch.gch
+xOdd_Even_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Odd_Even_Prefix.pch301415140#301415142#0(0"0(0#0#74"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Odd_Even_Prefix.pch8607117920#1834"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-generated-files.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-own-target-headers.hmap -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-all-target-headers.hmap -iquote /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even-project-headers.hmap -F/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/include -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources/armv7 -I/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/DerivedSources -c /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/Odd_Even_Prefix.pch -o /var/folders/Cc/CcGi6HVPEfOKpOYhigTg8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Odd_Even_Prefix-gkolzgkjjwtoeycruufypvouhwrn/Odd_Even_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/felipemathies/Library/MobileDevice/Provisioning Profiles/BA82C7D6-81F3-485C-B1F9-80310396F886.mobileprovision" /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/embedded.mobileprovision
+s301415143.464812
+e301415143.466588
+r1
+xProcessProductPackaging
+x/Users/felipemathies/Library/MobileDevice/Provisioning Profiles/BA82C7D6-81F3-485C-B1F9-80310396F886.mobileprovision
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/embedded.mobileprovision
+lSLF07#2@203"ProcessProductPackaging "/Users/felipemathies/Library/MobileDevice/Provisioning Profiles/BA82C7D6-81F3-485C-B1F9-80310396F886.mobileprovision" build/Release-iphoneos/Odd-Even.app/embedded.mobileprovision301415143#301415143#0(0"0(0#0#115"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/embedded.mobileprovision8610742752#466"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/felipemathies/Library/MobileDevice/Provisioning Profiles/BA82C7D6-81F3-485C-B1F9-80310396F886.mobileprovision" -o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even.xcent
+s301425978.166148
+e301425978.211547
+r0
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even.xcent
+lSLF07#2@180"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even.xcent301425978#301425978#0(214"<com.apple.tools.product-pkg-utility>: error: CFBundleIdentifier 'com.yourcompany.Odd_Even' contains illegal character '_' <com.apple.tools.product-pkg-utility>: invalid bundle identifier 'com.yourcompany.Odd_Even'2(4@123"<com.apple.tools.product-pkg-utility>: error: CFBundleIdentifier 'com.yourcompany.Odd_Even' contains illegal character '_' 301425978#18446744073709551615#0#0(6@0"301425978#0#0#0#0#0"0(4@91"<com.apple.tools.product-pkg-utility>: invalid bundle identifier 'com.yourcompany.Odd_Even'301425978#18446744073709551615#0#0(6@0"301425978#0#0#0#0#0"0(0#0#122"/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even.xcent8610089312#469"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Odd-Even.build/Release-iphoneos/Odd-Even.build/Odd-Even.xcent1#
+
+CTouch /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app
+s301415143.466661
+e301415143.475933
+r1
+xTouch
+x/Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app
+lSLF07#2@96"Touch /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app301415143#301415143#0(0"0(0#0#0"8609953376#299"    cd /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/felipemathies/Desenvolvimento/Projetos/Odd-Even/build/Release-iphoneos/Odd-Even.app0#
+
